@@ -1,5 +1,5 @@
 import React from 'react'
-import "./page.css";
+// import "./page.css";
 import Image from 'next/image'
 
 const page = () => {

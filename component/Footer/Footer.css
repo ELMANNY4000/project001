@@ -1,0 +1,320 @@
+.table-column-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+}
+.table-column {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--ui-type-text-sm-s-size);
+    color: var(--brand-main-goten);
+    font-family: var(--paragraph-text-md-regualr);
+}
+.table-column,
+.table-column-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+.table-divider {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 61px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.table-footer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+.content1 {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.content2 {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.content-item {
+    height: 42px;
+    width: 157.3px;
+    position: relative;
+}
+.resecure {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    display: inline-block;
+    min-width: 115px;
+}
+.our-company-parent {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.our-company {
+    font-size: var(--body-large-size);
+    line-height: 32px;
+    min-width: 121px;
+    white-space: nowrap;
+}
+.about-us,
+.faq,
+.our-company {
+    position: relative;
+    letter-spacing: 0.01em;
+    display: inline-block;
+}
+.about-us,
+.faq {
+    line-height: 22px;
+    min-width: 60px;
+}
+.faq {
+    min-width: 27px;
+}
+.our-company1 {
+    height: 32px;
+    font-size: var(--body-large-size);
+    line-height: 32px;
+    white-space: nowrap;
+}
+.contact-us {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 32px;
+    display: inline-block;
+    min-width: 100px;
+}
+.connect-with-us {
+    position: relative;
+    line-height: 24px;
+}
+
+.camera-instagram-social-media-icon,
+.twitter-icon-1 {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.camera-instagram-social-media-icon,
+.exclude-icon,
+.fb-facebook-facebook-logo-icon,
+.twitter-icon-1 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    min-height: 32px;
+}
+.fb-facebook-facebook-logo-icon {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.data-aggregator {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-5xl);
+}
+
+.connect-with-us-on-social-medi-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--paragraph-text-md-regualr-size);
+}
+
+.contact-us-parent,
+.table-footer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-us-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    font-size: var(--body-large-size);
+}
+
+.table-column-child,
+.table-divider {
+    align-self: stretch;
+    background-color: var(--brand-main-bulma);
+}
+
+.table-column-child {
+    height: 238px;
+    position: relative;
+    display: none;
+    z-index: 1;
+}
+
+.content-inner {
+    height: 42px;
+    width: 157.3px;
+    position: relative;
+}
+
+.content4,
+.resecure1 {
+    display: flex;
+    align-items: center;
+}
+
+.content4 {
+    height: 42px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.resecure1 {
+    height: 22px;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+}
+
+.content3 {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-us1,
+.faq1,
+.our-company1 {
+    position: relative;
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+}
+
+.about-us1,
+.faq1 {
+    height: 22px;
+    line-height: 22px;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+}
+
+.our-company-group {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-us1 {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+}
+
+.connect-with-us1 {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.camera-instagram-social-media-icon1,
+.twitter-icon-11 {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.camera-instagram-social-media-icon1,
+.exclude-icon1,
+.fb-facebook-facebook-logo-icon1,
+.twitter-icon-11 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    min-height: 32px;
+}
+
+.fb-facebook-facebook-logo-icon1 {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.camera-instagram-social-media-parent {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+}
+
+.connect-with-us-on-social-medi-group,
+.contact-us-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.connect-with-us-on-social-medi-group {
+    width: 241px;
+    gap: var(--gap-base);
+    font-size: var(--paragraph-text-md-regualr-size);
+}
+
+.contact-us-group {
+    gap: var(--gap-xs);
+    font-size: var(--body-large-size);
+}
+
+.content-parent {
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 88px;
+    left: 124px;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    z-index: 2;
+}
