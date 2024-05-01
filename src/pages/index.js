@@ -115,8 +115,6 @@ const page = () => {
                 <div className="heading11">
                   Search our database, verify identities on the go
                 </div>
-
-                <br></br>
                 <div className="current-level-inform3">
                   Leverage real-time database, to reduce exposure to fraud and
                   financial crime and inform decisions.
@@ -127,7 +125,7 @@ const page = () => {
                     <li className="search-and-identify">
                       Search and identify fake accounts
                     </li>
-                    <li>Real-time actionable and informed decision</li>
+                    <li className='infor'>Real-time actionable and informed decision</li>
                   </ul>
                 </div>
               </div>
@@ -140,6 +138,7 @@ const page = () => {
             </div>
           </div>
         </div>
+
       </section>
       
       

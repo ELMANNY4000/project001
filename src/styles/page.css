@@ -2175,23 +2175,54 @@
       flex: 1;
     }
     .heading11 {
-      font-size: var(--font-size-26xl);
-      line-height: 65px;
+        width: 356px;
+        color: var(--Brand-main-goten, #FFF);
+        font-family: "DM Serif Display";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 81px; /* 154.348% */
+        letter-spacing: -4px;
+        align-self: stretch; 
+    }
+    .current-level-inform3 {
+        width: 400px;
+        color: var(--Brand-main-goten, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "DM Sans";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 71px; /* 200% */
     }
     .group-parent {
         display: inline-block;
-        width: 356px;
+        width: 100%;
         flex-direction: column;
         align-items: flex-start;
-        gap: 44px;
+       
         text-align: left;
+        left: 50px;
+    }
+    .group-icon {
+        width: 316px;
+        height: 424px;
+        flex-shrink: 0;
+        /* right: 80px; */
     }
     .frame-parent7 {
       display: block;
-      width: 413px;
-      height: 1444px;
+      width: 100%;
+      height: 1222px;
       flex-shrink: 0;
-      
+    }
+    .frame-parent9,
+    .heading-parent6{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 44px;
     }
     .frame-section {
       padding-bottom: 49px;
@@ -2212,7 +2243,12 @@
       flex-wrap: wrap;
     }
     .heading13 {
-      font-size: 30px;
+        color: var(--Brand-main-goten, #FFF);
+        font-family: "DM Serif Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
     .data-flow-control {
       flex: 1;
@@ -2238,7 +2274,7 @@
       box-sizing: border-box;
     }
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 750px) {    
     .mds-tw-button-parent {
       gap: var(--gap-base);
     }
@@ -2311,9 +2347,22 @@
       padding-bottom: 131px;
       box-sizing: border-box;
     }
-    .frame-form {
-      flex-wrap: wrap;
+
+    .frame-parent19 {
+        display: block;
+        width: 369px;
+        height: 488px;
+        flex-shrink: 0;
     }
+    .error-handler{
+        display: inline-block;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 38px;
+    }
+    
+    
+    
     .alignment-alley {
       gap: var(--gap-5xl);
     }
@@ -2414,15 +2463,47 @@
       box-sizing: border-box;
     }
     .heading11 {
-      font-size: var(--font-size-15xl);
-      line-height: 49px;
+        font-size: 46px;
+        color: var(--Brand-main-goten, #FFF);
+        font-family: "DM Serif Display";
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 71px; /* 154.348% */
+        letter-spacing: -2px;
     }
+
+    .current-level-inform3 {
+        width: 356px;
+        color: var(--Brand-main-goten, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 200% */
+        align-self: stretch;
+    }
+    .report-fraud-cases-search-and,
+    .report-fraud-cases,
+    .search-and-identify, 
+    li {
+        align-self: stretch;
+        color: var(--Brand-main-goten, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 41px; /* 256.25% */
+    }
+
     .frame-parent9 {
       min-width: 100%;
     }
     .heading12 {
       font-size: var(--font-size-15xl);
-      line-height: 49px;
+      line-height: 71px;
     }
     .mds-tw-button6 {
         width: 276px;
@@ -2438,7 +2519,12 @@
       line-height: 31px;
     }
     .heading13 {
-      font-size: 23px;
+        color: var(--Brand-main-goten, #FFF);
+        font-family: "DM Serif Display";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
     .text-input-parent {
       flex-wrap: wrap;
@@ -2459,7 +2545,14 @@
     .frame-parent21 {
       gap: 35px;
     }
-
-   
+    .group-parent {
+        display: inline-block;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        left: 20px;
+    }
+    
   }
   
