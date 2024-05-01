@@ -1,6 +1,7 @@
 import React from 'react'
 // import "./page.css";
 import Image from 'next/image'
+import "../styles/page.css"
 
 const page = () => {
   return (
