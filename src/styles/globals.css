@@ -6,6 +6,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 @import url('https://fonts.cdnfonts.com/css/satoshi');
+<<<<<<< HEAD:src/app/globals.css
+=======
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './page.css';
+@import '../../component/Footer/Footer.css';
+@import '../../component/Navbar/Navbar.css';
+@import '../pages/Signup/Signup.css';
+
+
+>>>>>>> 77731e86b4cdce4429b723924ceb6d0727a1d7b7:src/styles/globals.css
 
 body {
   margin: 0;

@@ -1,0 +1,114 @@
+
+.frame-div,
+.group-child1 {
+  top: 0;
+  background: linear-gradient(135deg, #ffd3a5, #fd6585);
+  width: 264px;
+  overflow: hidden;
+  opacity: 0.11;
+}
+.frame-div {
+  position: absolute;
+  left: 90px;
+  height: 612px;
+}
+.group-child1 {
+  left: 0;
+}
+.frame-group,
+.group-child1,
+.group-child2 {
+  position: absolute;
+  height: 612px;
+}
+.group-child2 {
+  top: 0;
+  left: 50px;
+  background: linear-gradient(135deg, #ffd3a5, #fd6585);
+  width: 264px;
+  overflow: hidden;
+  opacity: 0.11;
+}
+
+.mds-tw-button3 {
+  width: 276px;
+  border-radius: var(--mds-button-radius);
+  background-color: var(--brand-main-piccolo);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--py-4) var(--size-240);
+  box-sizing: border-box;
+  min-height: 56px;
+  text-align: center;
+  font-size: var(--ui-type-text-md-s-size);
+  color: var(--brand-main-goten);
+  font-family: var(--ui-type-text-sm-s);
+}
+.frame-parent14 {
+  position: absolute;
+  top: 316px;
+  left: 436px;
+  width: 354px;
+  height: 612px;
+}
+.have-you-been {
+  margin: 0;
+}
+.heading13,
+.we-make-it {
+  position: relative;
+  line-height: 63px;
+}
+.we-make-it {
+  width: 430px;
+  font-size: var(--ui-type-text-md-s-size);
+  line-height: 28px;
+  font-family: var(--ui-type-text-sm-s);
+  color: var(--brand-main-trunks);
+  display: flex;
+  align-items: center;
+}
+.frame-parent15,
+.heading-parent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading-parent8 {
+  align-self: stretch;
+  gap: 18px 0;
+}
+.frame-parent15 {
+  position: absolute;
+  top: 117px;
+  left: 60px;
+  gap: 48px 0;
+}
+.shocked-guy-with-braids-posing-icon {
+  position: absolute;
+  top: 48px;
+  left: 836px;
+  width: 588px;
+  height: 527px;
+  object-fit: cover;
+}
+.group-container {
+  position: absolute;
+  top: 0%;
+  left: 100px;
+  border-radius: var(--br-5xl);
+  background-color: var(--brand-main-gohan);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+  width: 1194px;
+  height: 567px;
+  overflow: hidden;
+  font-size: 48px;
+  color: var(--gray-900);
+}
+
+
