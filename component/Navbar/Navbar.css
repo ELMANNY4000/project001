@@ -10,6 +10,9 @@
     font-family: var(--paragraph-text-md-regualr);
     color: var(--gray-600);
 }
+.nav-link{
+    font-size: 18px !important;
+}
 .contact-btn{
     background-color: #5C33CF ;
 }

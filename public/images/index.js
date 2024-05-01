@@ -1,0 +1,7 @@
+export { default as FB} from './facebook.png'
+export { default as X} from './X.png'
+export { default as Linkdin} from './linkdin.png'
+export { default as Instagram} from './instagram.png'
+export { default as Rensecure} from './rensecure.png'
+export { default as Hero_img} from './hero.png'
+export { default as Arrow} from './arrow.png'

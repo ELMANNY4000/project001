@@ -1,79 +1,50 @@
 import React from 'react'
-// import "./page.css";
 import Image from 'next/image'
+import { Hero_img, Arrow } from '../../public/images' 
 
 const page = () => {
   return (
     <>
-        <div className="waitlist">
-      <section className="waitlist-inner">
-        <div className="frame-parent1">
-          <div className="frame-wrapper1">
-            <div className="frame-parent2">
-              <div className="heading-group">
-                <div className="heading1">
-                  Report and verify identities on the go
-                </div>
-                <div className="current-level-inform1">
-                  Rensecure is built for global internet transactions facing
-                  evolving fraud threats. Providing cutting edge solutions for
-                  organisations and individuals to protect them from fraud and
-                  financial crime, making it harder for criminals to operate.
-                </div>
-              </div>
-              <div className="mds-tw-button-parent">
-                <button className="mds-tw-button4">
-                  <div className="button-text4">Report a fraud</div>
-                </button>
-                <div className="vector-wrapper">
-                  <img
-                    className="vector-icon"
-                    loading="lazy"
-                    alt=""
-                    src="./assist
-                    /vector-41.svg"
-                  />
-                </div>
-              </div>
+      <section className='container'>
+        <div className="row pt-5 ">
+          <div className='col-lg-6 pt-lg-5 pe-lg-5'>
+            <h1 className="text-header fw-medium">
+              Report and verify identity on the go
+            </h1>
+            <p className="hero-text mb-5">
+              FraudCovr is built for global internet transactions facing evolving fraud threats. 
+              Providing cutting edge solutions for organisations and individuals to protect them from fraud and financial crime, 
+              making it harder for criminals to operate.
+            </p>
+            <div className='Report-btn-cont position-relative'>
+              <button className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Report a fraud</button>
+              <Image src={Arrow} alt='arrow' className='arrow position-absolute '/>
             </div>
           </div>
-          <div className="frame-parent3">
-            <div className="frame-wrapper2">
-              <div className="frame-parent4">
-                <div className="frame-child1"></div>
-                <div className="frame-child2"></div>
-              </div>
-            </div>
-            <img
-              className="industrial-designer-working-3d-icon1"
+          <div className='col-lg-6 ps-lg-3 ms-auto ms-lg-0'>
+            <Image
+              className="w-100 h-100"
               loading="lazy"
               alt=""
-              src="./assist
-              /industrialdesignerworking3dmodel-2-1@2x.png"
+              src={Hero_img}
             />
           </div>
         </div>
       </section>
-      <section className="frame-section">
-        <div className="frame-wrapper3">
+      <section className="container">
+        <div className="row">
           <div className="heading-container">
-            <div className="heading2">How it works</div>
-            <div className="current-level-inform2">
+            <h1 className="text-header">How it works</h1>
+            <p className="work-text">
               We have built a database of real life, verifiable and thoroughly
               reviewd fraud cases,
-            </div>
+            </p>
           </div>
         </div>
         <div className="frame-wrapper4">
           <div className="frame-parent5">
             <div className="card-search-svgrepo-com-1-parent">
-              <img
-                className="card-search-svgrepo-com-1-icon"
-                loading="lazy"
-                alt=""
-                src="./assist
-                /cardsearchsvgrepocom-1.svg"
-              />
+              
 
               <div className="heading-parent1">
                 <div className="heading3">Search our database</div>
@@ -85,13 +56,7 @@ const page = () => {
               <div className="heading4">1</div>
             </div>
             <div className="user-heart-svgrepo-com-1-parent">
-              <img
-                className="user-heart-svgrepo-com-1-icon"
-                loading="lazy"
-                alt=""
-                src="./assist
-                /userheartsvgrepocom-1.svg"
-              />
+              
 
               <div className="heading-parent2">
                 <div className="heading5">Find a match</div>
@@ -108,13 +73,7 @@ const page = () => {
         <div className="frame-wrapper4">
           <div className="frame-parent5">
             <div className="card-search-svgrepo-com-1-parent">
-              <img
-                className="card-search-svgrepo-com-1-icon"
-                loading="lazy"
-                alt=""
-                src="./assist
-                /cardsearchsvgrepocom-1.svg"
-              />
+              
 
               <div className="heading-parent1">
                 <div className="heading3">Search our database</div>
@@ -126,13 +85,7 @@ const page = () => {
               <div className="heading4">1</div>
             </div>
             <div className="user-heart-svgrepo-com-1-parent">
-              <img
-                className="user-heart-svgrepo-com-1-icon"
-                loading="lazy"
-                alt=""
-                src="./assist
-                /userheartsvgrepocom-1.svg"
-              />
+              
 
               <div className="heading-parent2">
                 <div className="heading5">Find a match</div>
@@ -155,13 +108,7 @@ const page = () => {
             <div className="frame-child5"></div>
           </div>
           <div className="group-parent">
-            <img
-              className="group-icon"
-              loading="lazy"
-              alt=""
-              src="./assist
-              /group.svg"
-            />
+            
 
             <div className="frame-parent9">
               <div className="heading-parent6">
@@ -187,119 +134,15 @@ const page = () => {
               <div className="mds-tw-button5">
                 <div className="button-text5">Search a profile</div>
                 <div className="icon-contianer">
-                  <img
-                    className="icon"
-                    loading="lazy"
-                    alt=""
-                    src="./assist
-                    /icon.svg"
-                  />
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <img className="waitlist-child" alt="" src="./assist
-      /vector-42.svg" />
-
-      <section className="waitlist-inner1">
-        <div className="frame-parent10">
-          <div className="frame-parent11">
-            <div className="frame-parent12">
-              <div className="heading-parent7">
-                <div className="heading12">For Business</div>
-                <button className="mds-tw-tag">
-                  <div className="label-text">Coming Soon</div>
-                </button>
-              </div>
-              <div className="current-level-inform4">
-                Effective systems should identify fraud without blocking
-                legitimate payments. Read our primer on how machine learning can
-                produce predictive models of fraud from large sets of data.
-              </div>
-              <div className="current-level-inform-container1">
-                <ul className="real-time-protection-for-your">
-                  <li className="real-time-protection-for">
-                    Real-time protection for your customers
-                  </li>
-                  <li className="block-and-flag">
-                    Block and flag phishing and fraudulent bank accounts
-                  </li>
-                  <li>Protect revenue loss and drive growth</li>
-                </ul>
-              </div>
-            </div>
-            <button className="mds-tw-button6">
-              <div className="button-text6">Join the waitlist</div>
-            </button>
-          </div>
-          
-          
-          <div className="frame-parent13">
-            <div className="frame-parent14">
-              <div className="frame-child6"></div>
-              <div className="frame-child7"></div>
-              <div className="frame-child8"></div>
-            </div>
-            <div className="chart-5">
-              <div className="chart-5-inner">
-                <div className="frame-parent15">
-                  <div className="type-card-parent">
-                    <div className="type-card">Statistics</div>
-                    <b className="card-title">Flagged Transactions - Risk Score</b>
-                  </div>
-                  <div className="divider"></div>
-                </div>
-              </div>
-              <div className="chart-5-child">
-                <div className="circle-parent">
-                  <img
-                    className="circle-icon"
-                    loading="lazy"
-                    alt=""
-                    src="./assist
-                    /circle.svg"
-                  />
-
-                  <div className="amount-info">Total Count</div>
-                  <b className="amount">1,375</b>
-                </div>
-              </div>
-              <div className="divider-2-parent">
-                <div className="divider-2"></div>
-                <div className="frame-wrapper6">
-                  <div className="frame-parent16">
-                    <div className="frame-parent17">
-                      <div className="identifier-wrapper">
-                        <div className="identifier"></div>
-                      </div>
-                      <div className="name">Low</div>
-                    </div>
-                    <div className="amount-wrapper">
-                      <div className="amount1">513</div>
-                    </div>
-                    <div className="logic-operator">
-                      <div className="variable-store">
-                        <div className="identifier1"></div>
-                      </div>
-                      <div className="name1">Medium</div>
-                      <div className="amount2">741</div>
-                    </div>
-                    <div className="frame-parent18">
-                      <div className="identifier-container">
-                        <div className="identifier2"></div>
-                      </div>
-                      <div className="name2">High</div>
-                    </div>
-                    <div className="amount3">121</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+      
       <section className="triangle-trove-wrapper">
         <div className="triangle-trove">
           <div className="frame-parent19">
@@ -373,139 +216,11 @@ const page = () => {
                 </button>
               </div>
             </div>
-            <img
-              className="shocked-guy-with-braids-posing-icon"
-              loading="lazy"
-              alt=""
-              src="./assist
-              /shockedguywithbraidsposingagainstwhitewall-1@2x.png"
-            />
+            
           </div>
         </div>
       </section>
-      <section className="transform-table">
-        <footer className="frame-footer">
-          <div className="frame-wrapper7">
-            <div className="content-parent">
-              <div className="content4">
-                <div className="content5">
-                  <img
-                    className="content-child1"
-                    loading="lazy"
-                    alt=""
-                    src="./assist
-                    /group-552741.svg"
-                  />
-                </div>
-                <div className="resecure1">© 2024 Resecure</div>
-              </div>
-              <div className="our-company-parent">
-                <b className="our-company1">Our company</b>
-                <div className="about-us1">About us</div>
-                <div className="faq1">FAQ</div>
-              </div>
-              <div className="contact-us-parent">
-                <b className="contact-us1">Contact us</b>
-                <div className="data-aggregator">
-                  <div className="connect-with-us1">
-                    Connect with us on social media
-                  </div>
-                  <div className="input-processor">
-                    <img
-                      className="camera-instagram-social-media-icon1"
-                      loading="lazy"
-                      alt=""
-                      src="./assist
-                      /5279112-camera-instagram-social-media-instagram-logo-icon-1.svg"
-                    />
-
-                    <img
-                      className="twitter-icon-11"
-                      loading="lazy"
-                      alt=""
-                      src="./assist
-                      /104461-twitter-icon-1.svg"
-                    />
-
-                    <img
-                      className="exclude-icon1"
-                      loading="lazy"
-                      alt=""
-                      src="./assist
-                      /exclude.svg"
-                    />
-
-                    <img
-                      className="fb-facebook-facebook-logo-icon1"
-                      loading="lazy"
-                      alt=""
-                      src="./assist
-                      /5305154-fb-facebook-facebook-logo-icon-1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="rectangle-div"></div>
-          <div className="content-group">
-            <div className="content6">
-              <div className="content7">
-                <img
-                  className="content-child2"
-                  alt=""
-                  src="./assist
-                  /group-552741.svg"
-                />
-              </div>
-              <div className="resecure2">© 2024 Resecure</div>
-            </div>
-            <div className="our-company-group">
-              <b className="our-company2">Our company</b>
-              <div className="about-us2">About us</div>
-              <div className="faq2">FAQ</div>
-            </div>
-            <div className="contact-us-group">
-              <b className="contact-us2">Contact us</b>
-              <div className="connect-with-us-on-social-medi-parent">
-                <div className="connect-with-us2">
-                  Connect with us on social media
-                </div>
-                <div className="camera-instagram-social-media-parent">
-                  <img
-                    className="camera-instagram-social-media-icon2"
-                    alt=""
-                    src="./assist
-                    /5279112-camera-instagram-social-media-instagram-logo-icon-1.svg"
-                  />
-
-                  <img
-                    className="twitter-icon-12"
-                    alt=""
-                    src="./assist
-                    /104461-twitter-icon-1.svg"
-                  />
-
-                  <img
-                    className="exclude-icon2"
-                    alt=""
-                    src="./assist
-                    /exclude.svg"
-                  />
-
-                  <img
-                    className="fb-facebook-facebook-logo-icon2"
-                    alt=""
-                    src="./assist
-                    /5305154-fb-facebook-facebook-logo-icon-1.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </section>
-    </div>
+      
     </>
   )
 }

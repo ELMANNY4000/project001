@@ -1,3 +1,60 @@
+.text-header{
+  font-family: var( --font-dm-serif-display);
+  font-size: var(  --font-size-37xl);
+  color: var(--gray-900);
+  line-height: 81px;
+}
+.hero-text{
+  font-size: var(--paragraph-text-lg-bold-size);
+  line-height: 32px;
+  font-family: var(--paragraph-text-md-regualr);
+  color: var(--brand-main-trunks);
+}
+.btn-colour{
+  background-color: var(--color-mediumslateblue);
+  font-size: var(--paragraph-text-md-regualr-size);
+  font-weight: 500;
+  font-family: var(--paragraph-text-md-regualr);
+  color: var(--brand-main-goten);
+}
+.Report-btn-cont{
+  padding-bottom: 120px;
+}
+.Report-btn{
+  width: 276px; 
+}
+.arrow{
+  right: 0;
+  top: 35px;
+}
+.hero-img{
+  background: #fff url(../../public/images/hero.png) no-repeat center;
+  background-position: cover;
+}
+@media screen and (max-width:425px) {
+  .text-header{
+    font-size: 44px;
+    line-height: 58px;
+  }
+  .arrow{
+    width: 130px;
+    height: 85px;
+    top: 65px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .arrow{
+    width: 130px;
+    height: 85px;
+    top: 65px;
+  }
+}
+.work-text {
+  font-size: var(--font-size-xl);
+  line-height: 32px;
+  font-family: var(--paragraph-text-md-regualr);
+  color: var(--brand-main-trunks);
+}
 .content-inner {
     height: 43px;
     width: 165.7px;
@@ -247,16 +304,7 @@
     position: relative;
     line-height: 81px;
   }
-  .current-level-inform1 {
-    width: 516px;
-    position: relative;
-    font-size: var(--paragraph-text-lg-bold-size);
-    line-height: 32px;
-    font-family: var(--paragraph-text-md-regualr);
-    color: var(--brand-main-trunks);
-    display: inline-block;
-    max-width: 100%;
-  }
+  
   .heading-group {
     align-self: stretch;
     display: flex;
@@ -426,24 +474,9 @@
     display: inline-block;
     max-width: 100%;
   }
-  .current-level-inform2 {
-    position: relative;
-    font-size: var(--font-size-xl);
-    line-height: 32px;
-    font-family: var(--paragraph-text-md-regualr);
-    color: var(--brand-main-trunks);
-  }
-  .frame-wrapper3,
-  .heading-container {
-    display: flex;
-    align-items: flex-start;
-    max-width: 100%;
-  }
-  .heading-container {
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: var(--gap-3xs);
-  }
+  
+  
+ 
   .frame-wrapper3 {
     width: 1012px;
     flex-direction: row;

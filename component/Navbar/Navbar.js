@@ -25,16 +25,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav navtext justify-content-center ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link href='' className="nav-link px-4 ">How it works</Link>
+              <Link href='' className="nav-link fw-bold  px-4 ">How it works</Link>
             </li>
             <li className="nav-item">
-              <Link href='' className="nav-link px-4">For Business</Link>
+              <Link href='' className="nav-link fw-bold  px-4">For Business</Link>
             </li>
             <li className="nav-item">
-              <Link href='' className="nav-link px-4">Search</Link>
+              <Link href='' className="nav-link fw-bold  px-4">Search</Link>
             </li>
             <li className="nav-item">
-              <Link href='' className="nav-link px-4">FAQ</Link>
+              <Link href='' className="nav-link fw-bold  px-4">FAQ</Link>
             </li>
             <Link className='text-decoration-none py-2 px-4 rounded text-center text-white contact-btn' href=''> Contact us</Link>
           </ul>

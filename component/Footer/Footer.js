@@ -1,3 +1,5 @@
+import Image from "next/image"
+import { FB, Instagram, X, Linkdin, Rensecure} from "../../public/images"
 
 const Footer = () => {
   return (
@@ -8,11 +10,11 @@ const Footer = () => {
             <div className="table-footer">
               <div className="content1">
                 <div className="content2">
-                  <img
+                  <Image
                     className="content-item"
                     loading="lazy"
                     alt=""
-                    src="./assist/group-55274.svg"
+                    src={Rensecure}
                   />
                 </div>
                 <div className="resecure">© 2024 Resecure</div>
@@ -29,32 +31,32 @@ const Footer = () => {
                     Connect with us on social media
                   </div>
                   <div className="data-aggregator">
-                    <img
+                    <Image
                       className="camera-instagram-social-media-icon"
                       loading="lazy"
                       alt=""
-                      src="./assist/5279112-camera-instagram-social-media-instagram-logo-icon-1.svg"
+                      src={Instagram}
                     />
 
-                    <img
+                    <Image
                       className="twitter-icon-1"
                       loading="lazy"
                       alt=""
-                      src="./assist/104461-twitter-icon-1.svg"
+                      src={X}
                     />
 
-                    <img
+                    <Image
                       className="exclude-icon"
                       loading="lazy"
                       alt=""
-                      src="./assist/exclude.svg"
+                      src={Linkdin}
                     />
 
-                    <img
+                    <Image
                       className="fb-facebook-facebook-logo-icon"
                       loading="lazy"
                       alt=""
-                      src="./assist/5305154-fb-facebook-facebook-logo-icon-1.svg"
+                      src={FB}
                     />
                   </div>
                 </div>
