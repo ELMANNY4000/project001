@@ -903,6 +903,7 @@
     }
     .dashboard {
       gap: 36px;
+      display: block;
     }
   }
   
