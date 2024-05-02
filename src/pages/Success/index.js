@@ -1,7 +1,7 @@
 import React from 'react'
-import "./success.css"
 
-export const index = () => {
+
+const index = () => {
   return (
     <>
         <div className="done">
@@ -61,3 +61,4 @@ export const index = () => {
     </>
   )
 }
+export default index;

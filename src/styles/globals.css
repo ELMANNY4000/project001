@@ -11,6 +11,7 @@
 @import '../../component/Footer/Footer.css';
 @import '../../component/Navbar/Navbar.css';
 @import '../pages/Signup/Signup.css';
+@import '../pages/Success/success.css';
 body {
   margin: 0;
   line-height: normal;
@@ -18,14 +19,14 @@ body {
 
 :root {
   /* fonts */
-  --paragraph-text-md-regualr: "DM Sans";
+  --font-dm-sans: "DM Sans";
   --font-satoshi: Satoshi;
   --font-dm-serif-display: "DM Serif Display";
   --text-single-300-medium: Inter;
   --text-sm-semibold: "Cera Pro";
 
   /* font sizes */
-  --paragraph-text-md-regualr-size: 16px;
+  --regualr-size: 16px;
   --paragraph-text-lg-bold-size: 18px;
   --ui-type-text-sm-r-size: 14px;
   --font-size-xs: 12px;

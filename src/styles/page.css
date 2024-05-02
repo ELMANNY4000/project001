@@ -7,14 +7,14 @@
 .hero-text{
   font-size: var(--paragraph-text-lg-bold-size);
   line-height: 32px;
-  font-family: var(--paragraph-text-md-regualr);
+  font-family: var(  --font-dm-sans);
   color: var(--brand-main-trunks);
 }
 .btn-colour{
   background-color: var(--color-mediumslateblue);
-  font-size: var(--paragraph-text-md-regualr-size);
+  font-size: var(--regualr-size);
   font-weight: 500;
-  font-family: var(--paragraph-text-md-regualr);
+  font-family: var(  --font-dm-sans);
   color: var(--brand-main-goten);
 }
 .Report-btn-cont{
@@ -41,6 +41,9 @@
     height: 85px;
     top: 65px;
   }
+  .how-card-row{
+    grid-template-columns: auto !important;
+  }
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
   .arrow{
@@ -52,9 +55,66 @@
 .work-text {
   font-size: var(--font-size-xl);
   line-height: 32px;
-  font-family: var(--paragraph-text-md-regualr);
+  font-family: var(  --font-dm-sans);
   color: var(--brand-main-trunks);
 }
+
+/* how it works section*/
+.how-card-row{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 32px;
+
+}
+.how-card {
+  border-radius: var(--br-5xl);
+  background-color: var(--brand-main-gohan);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-39xl) var(--padding-21xl) var(--padding-33xl);
+  width: auto;
+
+}
+.how-card:hover{
+  box-shadow: var(--focus-active);
+  border: 2px solid var(--brand-main-piccolo);
+}
+.how-card-cont{
+  z-index: 1000 !important;
+}
+.how-card-heading {
+  font-size: var(--font-size-17xl);
+  line-height: 44px;
+  font-family: var(--font-dm-serif-display);
+  color: var( --gray-900);
+}
+
+.how-card-content {
+  font-size: var(--regualr-size);
+  line-height: 28px;
+  font-family: var(  --font-dm-sans);
+  color: var(--brand-main-trunks);
+}
+
+.how-card-num {
+  bottom: -135px;
+  font-size: var(--font-size-368xl);
+  letter-spacing: -2px;
+  font-family: var(  --font-dm-sans);
+  color: var(--light-border);
+  display: inline-block;
+  z-index: 0;
+}
+
+.num-width1 {
+  width: 119px;
+  right: 5px;
+}
+.num-width2 {
+  width: 222px;
+  right: -52px;
+}
+/* Search section*/
 .content-inner {
     height: 43px;
     width: 165.7px;
@@ -145,7 +205,7 @@
     font-size: var(--paragraph-text-lg-bold-size);
     line-height: 28px;
     display: inline-block;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--gray-600);
     text-align: left;
     min-width: 62px;
@@ -221,7 +281,7 @@
     font-size: var(--ui-type-text-sm-r-size);
     line-height: 24px;
     font-weight: 500;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-goten);
     text-align: center;
     min-width: 73px;
@@ -323,10 +383,10 @@
   .button-text4 {
     width: 109px;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 24px;
     font-weight: 500;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-goten);
     text-align: center;
     align-items: center;
@@ -498,14 +558,7 @@
     display: inline-block;
     max-width: 100%;
   }
-  .conduct-a-search {
-    align-self: stretch;
-    position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
-    line-height: 28px;
-    font-family: var(--paragraph-text-md-regualr);
-    color: var(--brand-main-trunks);
-  }
+ 
   .heading-parent1 {
     width: 468px;
     display: flex;
@@ -515,37 +568,8 @@
     gap: var(--gap-9xl);
     max-width: 100%;
   }
-  .heading4 {
-    width: 119px;
-    position: absolute;
-    margin: 0 !important;
-    right: 5px;
-    bottom: -135px;
-    font-size: var(--font-size-368xl);
-    letter-spacing: -2px;
-    font-family: var(--paragraph-text-md-regualr);
-    color: var(--light-border);
-    display: inline-block;
-    z-index: 1;
-  }
-  .card-search-svgrepo-com-1-parent {
-    flex: 1;
-    box-shadow: var(--focus-active);
-    border-radius: var(--br-5xl);
-    background-color: var(--brand-main-gohan);
-    border: 2px solid var(--brand-main-piccolo);
-    box-sizing: border-box;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-39xl) var(--padding-21xl) var(--padding-33xl);
-    position: relative;
-    gap: var(--gap-29xl);
-    min-width: 380px;
-    max-width: 100%;
-  }
+
+ 
   .user-heart-svgrepo-com-1-icon {
     width: 143px;
     height: 143px;
@@ -553,19 +577,9 @@
     overflow: hidden;
     flex-shrink: 0;
   }
-  .heading5,
-  .we-fetch-all {
-    position: relative;
-    line-height: 44px;
-  }
-  .we-fetch-all {
-    align-self: stretch;
-    font-size: var(--paragraph-text-md-regualr-size);
-    line-height: 28px;
-    font-family: var(--paragraph-text-md-regualr);
-    color: var(--brand-main-trunks);
-  }
-  .heading-parent2 {
+ 
+ 
+  /* .heading-parent2 {
     width: 468px;
     display: flex;
     flex-direction: column;
@@ -573,20 +587,8 @@
     justify-content: flex-start;
     gap: var(--gap-9xl);
     max-width: 100%;
-  }
-  .heading6 {
-    width: 222px;
-    position: absolute;
-    margin: 0 !important;
-    right: -52px;
-    bottom: -135px;
-    font-size: var(--font-size-368xl);
-    letter-spacing: -2px;
-    font-family: var(--paragraph-text-md-regualr);
-    color: var(--light-border);
-    display: inline-block;
-    z-index: 1;
-  }
+  } */
+
   .user-heart-svgrepo-com-1-parent {
     flex: 1;
     border-radius: var(--br-5xl);
@@ -660,9 +662,9 @@
     justify-content: flex-start;
     position: relative;
     max-width: 100%;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     color: var(--brand-main-trunks);
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
   }
   .clipboard-list-svgrepo-com-1-parent,
   .heading-parent3 {
@@ -712,9 +714,9 @@
   .our-tool-provide {
     align-self: stretch;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 28px;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-trunks);
     z-index: 1;
   }
@@ -749,7 +751,7 @@
     gap: var(--gap-29xl);
     font-size: var(--font-size-368xl);
     color: var(--light-border);
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
   }
   .frame-parent6,
   .frame-wrapper5 {
@@ -923,9 +925,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     color: var(--brand-main-goten);
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
   }
   .frame-section {
     align-items: flex-start;
@@ -955,9 +957,9 @@
     line-height: 81px;
   }
   .label-text {
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 24px;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-goten);
     text-align: center;
     display: inline-block;
@@ -1032,10 +1034,10 @@
   .button-text6 {
     width: 119px;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 24px;
     font-weight: 500;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-goten);
     text-align: center;
     min-width: 119px;
@@ -1355,7 +1357,7 @@
   .divider-2-parent {
     flex-direction: column;
     gap: var(--gap-12xl);
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
   }
   .chart-5,
   .divider-2-parent,
@@ -1404,9 +1406,9 @@
     padding: 0 var(--padding-xl) 201px var(--padding-5xl);
     box-sizing: border-box;
     text-align: left;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     color: var(--brand-main-trunks);
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
   }
   .frame-child10,
   .frame-child11,
@@ -1447,9 +1449,9 @@
   .current-level-inform5 {
     align-self: stretch;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 32px;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-gohan);
   }
   .data-flow-control {
@@ -1465,8 +1467,8 @@
     width: 100%;
     border: 0;
     outline: 0;
-    font-family: var(--paragraph-text-md-regualr);
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-family: var(  --font-dm-sans);
+    font-size: var(--regualr-size);
     background-color: transparent;
     align-self: stretch;
     height: 24px;
@@ -1495,7 +1497,7 @@
     position: relative;
     font-size: var(--font-size-xs);
     line-height: 16px;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-trunks);
     text-align: left;
   }
@@ -1521,8 +1523,8 @@
     width: 100%;
     border: 0;
     outline: 0;
-    font-family: var(--paragraph-text-md-regualr);
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-family: var(  --font-dm-sans);
+    font-size: var(--regualr-size);
     background-color: transparent;
     align-self: stretch;
     height: 24px;
@@ -1551,7 +1553,7 @@
     position: relative;
     font-size: var(--font-size-xs);
     line-height: 16px;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-trunks);
     text-align: left;
   }
@@ -1590,10 +1592,10 @@
   .button-text7 {
     width: 69px;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 24px;
     font-weight: 500;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-goten);
     text-align: center;
     min-width: 69px;
@@ -1687,9 +1689,9 @@
   .we-make-it {
     width: 430px;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 28px;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-trunks);
     display: flex;
     align-items: center;
@@ -1708,10 +1710,10 @@
   .button-text8 {
     width: 136px;
     position: relative;
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
     line-height: 24px;
     font-weight: 500;
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     color: var(--brand-main-goten);
     text-align: center;
     display: flex;
@@ -1901,7 +1903,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: var(--gap-base);
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
   }
   .contact-us-parent {
     gap: var(--gap-xs);
@@ -2050,7 +2052,7 @@
   .connect-with-us-on-social-medi-parent {
     width: 241px;
     gap: var(--gap-base);
-    font-size: var(--paragraph-text-md-regualr-size);
+    font-size: var(--regualr-size);
   }
   .contact-us-group {
     gap: var(--gap-xs);
@@ -2085,7 +2087,7 @@
     text-align: left;
     font-size: var(--ui-type-text-sm-r-size);
     color: var(--brand-main-goten);
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
   }
   .transform-table {
     align-self: stretch;
@@ -2109,7 +2111,7 @@
     text-align: left;
     font-size: var(--paragraph-text-lg-bold-size);
     color: var(--gray-600);
-    font-family: var(--paragraph-text-md-regualr);
+    font-family: var(  --font-dm-sans);
     background-color: white;
   }
   @media screen and (max-width: 1200px) {
@@ -2411,7 +2413,7 @@
     }
     .current-level-inform2,
     .heading3 {
-      font-size: var(--paragraph-text-md-regualr-size);
+      font-size: var(--regualr-size);
       line-height: 26px;
     }
     .heading3 {

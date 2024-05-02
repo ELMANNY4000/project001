@@ -41,66 +41,49 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="frame-wrapper4">
-          <div className="frame-parent5">
-            <div className="card-search-svgrepo-com-1-parent">
-              
-
-              <div className="heading-parent1">
-                <div className="heading3">Search our database</div>
-                <div className="conduct-a-search">
-                  Conduct a search using full name, bank accounts, business
-                  names etc
-                </div>
+        <div class="row how-card-row">
+          <div class="col how-card position-relative">
+            <div className="how-card-cont">
+              <div className="how-card-heading fw-normal ">Search our database</div>
+              <div className="how-card-content w-md-50  position-relative">
+                Conduct a search using full name, bank accounts, business
+                names etc
               </div>
-              <div className="heading4">1</div>
             </div>
-            <div className="user-heart-svgrepo-com-1-parent">
-              
-
-              <div className="heading-parent2">
-                <div className="heading5">Find a match</div>
-                <div className="we-fetch-all">
-                  We fetch all the possible matches and their individual details
-                  for your search results
-                </div>
-              </div>
-              <div className="heading6">2</div>
-            </div>
+            <div className="how-card-num num-width1 position-absolute m-0">1</div>
           </div>
-        </div>
-
-        <div className="frame-wrapper4">
-          <div className="frame-parent5">
-            <div className="card-search-svgrepo-com-1-parent">
-              
-
-              <div className="heading-parent1">
-                <div className="heading3">Search our database</div>
-                <div className="conduct-a-search">
-                  Conduct a search using full name, bank accounts, business
-                  names etc
-                </div>
+          <div class="col how-card position-relative">
+            <div className="how-card-cont">
+              <div className="how-card-heading fw-normal ">Find a match</div>
+              <div className="how-card-content w-md-50 position-relative">
+                We fetch all the possible matches and their individual details
+                for your search results
               </div>
-              <div className="heading4">1</div>
             </div>
-            <div className="user-heart-svgrepo-com-1-parent">
-              
-
-              <div className="heading-parent2">
-                <div className="heading5">Find a match</div>
-                <div className="we-fetch-all">
-                  We fetch all the possible matches and their individual details
-                  for your search results
-                </div>
-              </div>
-              <div className="heading6">2</div>
-            </div>
+            <div className="how-card-num num-width2 position-absolute m-0">2</div>
           </div>
-        </div>
-
-       <br></br>
-
+          <div class="col how-card position-relative">
+            <div className="how-card-cont">
+              <div className="how-card-heading fw-normal ">Analyze matched results</div>
+              <div className="how-card-content w-md-50 position-relative">
+                Match results can contain multiple parameters our 
+                aim is to find the closest matches to your search results
+              </div>
+            </div>
+            <div className="how-card-num num-width2 position-absolute m-0">3</div>
+          </div>
+          <div class="col how-card position-relative">
+            <div className="how-card-cont">
+              <div className="how-card-heading fw-normal ">Make informed decision</div>
+              <div className="how-card-content w-md-50 position-relative">
+                Our tool provide the necessary information to help you decide on next steps, 
+              </div>
+            </div>
+            <div className="how-card-num num-width2 position-absolute m-0">4</div>
+          </div>
+        </div>    
+      </section>
+      
         <div className="frame-parent7">
           <div className="frame-parent8">
             <div className="frame-child3"></div>
@@ -138,8 +121,6 @@ const page = () => {
             </div>
           </div>
         </div>
-
-      </section>
       
       
       <section className="triangle-trove-wrapper">
