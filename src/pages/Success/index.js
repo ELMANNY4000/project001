@@ -4,28 +4,28 @@ import "./success.css"
 export const index = () => {
   return (
     <>
-        <div class="done">
-      <main class="done-inner">
-        <div class="frame-parent">
-          <div class="frame-group">
-            <div class="frame-wrapper">
-              <div class="frame-container">
-                <div class="frame-child"></div>
-                <div class="frame-item"></div>
+        <div className="done">
+      <main className="done-inner">
+        <div className="frame-parent">
+          <div className="frame-group">
+            <div className="frame-wrapper">
+              <div className="frame-container">
+                <div className="frame-child"></div>
+                <div className="frame-item"></div>
               </div>
             </div>
-            <div class="industrial-designer-working-3d-parent">
+            <div className="industrial-designer-working-3d-parent">
               <img
-                class="industrial-designer-working-3d-icon"
+                className="industrial-designer-working-3d-icon"
                 loading="lazy"
                 alt=""
                 src="./public/industrialdesignerworking3dmodel-2-1@2x.png"
               />
 
-              <div class="current-level-inform-container">
-                <ul class="report-fraud-cases-search-and">
-                  <li class="report-fraud-cases">Report fraud cases</li>
-                  <li class="search-and-identify">
+              <div className="current-level-inform-container">
+                <ul className="report-fraud-cases-search-and">
+                  <li className="report-fraud-cases">Report fraud cases</li>
+                  <li className="search-and-identify">
                     Search and identify fake accounts
                   </li>
                   <li>Real-time actionable and informed decision</li>
@@ -33,24 +33,24 @@ export const index = () => {
               </div>
             </div>
           </div>
-          <div class="metric-item-wrapper">
-            <div class="metric-item">
+          <div className="metric-item-wrapper">
+            <div className="metric-item">
               <img
-                class="efs-1-icon"
+                className="efs-1-icon"
                 loading="lazy"
                 alt=""
                 src="./public/7efs-1@2x.png"
               />
 
-              <div class="frame-div">
-                <div class="success-parent">
-                  <h1 class="success">Success!</h1>
-                  <div class="your-account-has">
+              <div className="frame-div">
+                <div className="success-parent">
+                  <h1 className="success">Success!</h1>
+                  <div className="your-account-has">
                     Your account has been successfully created
                   </div>
                 </div>
-                <button class="mds-tw-button1">
-                  <div class="button-text1">Continue to dashboard</div>
+                <button className="mds-tw-button1">
+                  <div className="button-text1">Continue to dashboard</div>
                 </button>
               </div>
             </div>
