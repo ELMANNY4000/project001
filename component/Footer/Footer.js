@@ -3,34 +3,32 @@ import { FB, Instagram, X, Linkdin, Rensecure} from "../../public/images"
 
 const Footer = () => {
   return (
-    <>
-        <section className="table-column-wrapper">
-        <footer className="table-column">
-          <div className="table-divider">
-            <div className="table-footer">
-              <div className="content1">
-                <div className="content2">
-                  <Image
-                    className="content-item"
-                    loading="lazy"
-                    alt=""
-                    src={Rensecure}
-                  />
-                </div>
-                <div className="resecure">© 2024 Resecure</div>
+      <footer className=" bg-black">
+        <div className="container pt-5">
+          <div className="row pt-5 pb-4 d-md-flex  justify-content-between">
+            <div className="col-12 col-md d-flex flex-column justify-content-between">
+                <Image
+                  className="content-item"
+                  loading="lazy"
+                  alt=""
+                  src={Rensecure}
+                />
+              <div className="footer-text text-white">© 2024 Resecure</div>
+            </div>
+            <div className="col-12 col-md my-5 my-md-0 d-flex flex-column align-items-md-center text-white">
+              <div >
+                <b className="footer-head">Our company</b>
+                <div className="footer-text">About us</div>
+                <div className="footer-text">FAQ</div>
               </div>
-              <div className="our-company-parent">
-                <b className="our-company">Our company</b>
-                <div className="about-us">About us</div>
-                <div className="faq">FAQ</div>
-              </div>
-              <div className="contact-us-parent">
-                <b className="contact-us">Contact us</b>
-                <div className="connect-with-us-on-social-medi-parent">
-                  <div className="connect-with-us">
+            </div>
+            <div className="col-12 col-md d-flex flex-column align-items-md-end text-white">
+                <div className="">
+                  <b className="footer-head">Contact us</b>
+                  <div className="footer-text">
                     Connect with us on social media
                   </div>
-                  <div className="data-aggregator">
+                  <div className="d-flex justify-content-between col-7 col-md-12">
                     <Image
                       className="camera-instagram-social-media-icon"
                       loading="lazy"
@@ -60,12 +58,10 @@ const Footer = () => {
                     />
                   </div>
                 </div>
-              </div>
             </div>
           </div>
-        </footer>
-      </section>
-    </>
+        </div>
+      </footer>
   )
 }
 
