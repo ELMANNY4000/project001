@@ -780,20 +780,7 @@
   
   
   
-  .welcome-modal {
-    width: 100%;
-    position: relative;
-    border-radius: 16px;
-    background-color: var(--white);
-    align-items: flex-end;
-    justify-content: flex-start;
-    gap: 95px;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    font-size: var(--paragraph-text-lg-bold-size);
-    color: var(--dark-mode-global-cards-background);
-  }
+
   @media screen and (max-width: 373px) {
     .frame-parent15 {
       gap: var(--gap-mid);
