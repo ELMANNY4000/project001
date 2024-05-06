@@ -1,7 +1,6 @@
 import React from "react";
-import "./dashboard.css";
 
-export const index = () => {
+const index = () => {
   return (
     <>
       <div class="dashboard">
@@ -263,3 +262,5 @@ export const index = () => {
     </>
   );
 };
+
+export default index;

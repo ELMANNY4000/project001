@@ -12,6 +12,7 @@
 @import '../../component/Navbar/Navbar.css';
 @import '../pages/Signup/Signup.css';
 @import '../pages/Success/success.css';
+@import '../pages/Dashboard/Dashboard.css';
 body {
   margin: 0;
   line-height: normal;
