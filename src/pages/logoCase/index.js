@@ -1,5 +1,6 @@
 import React from 'react'
 import "Logocase.css";
+import Image from 'next/image'
 
 export const index = () => {
   return (
@@ -9,7 +10,7 @@ export const index = () => {
         <section className="m-d-s-t-w-button4">
           <div className="modal-title">
             <div className="button-left3">
-              <img
+              <Image
                 className="primaryoutlinearrow-narrow-l-icon1"
                 loading="lazy"
                 alt=""
@@ -27,7 +28,7 @@ export const index = () => {
                 <div className="instagram-icon">
                   <div className="twitter-icon">
                     <div className="facebook-logo">
-                      <img
+                      <Image
                         className="range-slider-icon"
                         loading="lazy"
                         alt=""
@@ -46,7 +47,7 @@ export const index = () => {
                 <div className="mds-tw-alert">
                   <div className="content8">
                     <div className="alert-header">
-                      <img
+                      <Image
                         className="primarysolidinformation-circ-icon"
                         loading="lazy"
                         alt=""
@@ -66,7 +67,7 @@ export const index = () => {
                   <div className="select-category">Select category</div>
                   <div className="modal-suitcase">
                     <div className="modal">
-                      <img
+                      <Image
                         className="banknote-2-svgrepo-com-icon"
                         loading="lazy"
                         alt=""
@@ -76,7 +77,7 @@ export const index = () => {
                       <b className="title1">Financial</b>
                     </div>
                     <div className="modal1">
-                      <img
+                      <Image
                         className="home-1-svgrepo-com-icon"
                         loading="lazy"
                         alt=""
@@ -86,7 +87,7 @@ export const index = () => {
                       <b className="title2">Property</b>
                     </div>
                     <div className="modal2">
-                      <img
+                      <Image
                         className="suitcase-tag-svgrepo-com-icon"
                         loading="lazy"
                         alt=""
@@ -96,7 +97,7 @@ export const index = () => {
                       <b className="title3">Immigration</b>
                     </div>
                     <div className="modal3">
-                      <img
+                      <Image
                         className="global-svgrepo-com-1-icon"
                         loading="lazy"
                         alt=""
@@ -106,7 +107,7 @@ export const index = () => {
                       <b className="title4">Cybercrime</b>
                     </div>
                     <div className="modal4">
-                      <img
+                      <Image
                         className="layers-minimalistic-svgrepo-co-icon2"
                         loading="lazy"
                         alt=""
@@ -207,7 +208,7 @@ export const index = () => {
                   </div>
                 </div>
                 <div className="separator1">
-                  <img
+                  <Image
                     className="separator-item"
                     loading="lazy"
                     alt=""

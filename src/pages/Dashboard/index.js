@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 const index = () => {
   return (
@@ -28,17 +29,17 @@ const index = () => {
                       <div className="button-text9">Report now</div>
                     </button>
                     <div className="layers-minimalistic-svgrepo-co-parent">
-                      <img
+                      <Image
                         className="layers-minimalistic-svgrepo-co-icon"
                         loading="lazy"
                         alt=""
-                        src="./public/layersminimalisticsvgrepocom.svg"
+                        src="./public/layersmini"
                       />
 
-                      <img
+                      <Image
                         className="frame-child2"
                         alt=""
-                        src="./public/group-55323.svg"
+                        src="./"
                       />
                     </div>
                   </div>
@@ -55,11 +56,11 @@ const index = () => {
                       <div className="button-text10">Search our database</div>
                     </button>
                     <div className="card-search-svgrepo-com-1-parent">
-                      <img
+                      <Image
                         className="card-search-svgrepo-com-1-icon"
                         loading="lazy"
                         alt=""
-                        src="./public/cardsearchsvgrepocom-1.svg"
+                        src="./public/card"
                       />
 
                       <h2 className="heading5">Run a search</h2>
@@ -67,10 +68,10 @@ const index = () => {
                         We fetch all the possible matches and their individual
                         details for your search results
                       </div>
-                      <img
+                      <Image
                         className="frame-child5"
                         alt=""
-                        src="./public/group-55323-1.svg"
+                        src="./pu"
                       />
                     </div>
                   </div>
@@ -82,7 +83,7 @@ const index = () => {
                   <div className="input-title-component">
                     <div className="appointment-reminder">
                       <div className="data-for-good-logo">
-                        <img
+                        <Image
                           className="data-for-good-logo-child"
                           loading="lazy"
                           alt=""
@@ -98,7 +99,7 @@ const index = () => {
                     </div>
                     <div className="appointment-reminder1">
                       <div className="frame-parent9">
-                        <img
+                        <Image
                           className="frame-icon"
                           alt=""
                           src="./public/frame-282658-1@2x.png"
@@ -113,7 +114,7 @@ const index = () => {
                     </div>
                     <div className="appointment-reminder2">
                       <div className="frame-parent10">
-                        <img
+                        <Image
                           className="frame-child6"
                           alt=""
                           src="./public/frame-282658-2@2x.png"
@@ -151,7 +152,7 @@ const index = () => {
                       <div className="why-financial-wellbeing-sub-he-wrapper">
                         <div className="why-financial-wellbeing-sub-he">
                           <b className="input-title">How does it work?</b>
-                          <img
+                          <Image
                             className="why-financial-wellbeing-sub-he-child"
                             alt=""
                             src="./public/frame-7386@2x.png"
@@ -165,7 +166,7 @@ const index = () => {
                           <b className="input-title1">
                             How can you open a blocked account
                           </b>
-                          <img
+                          <Image
                             className="frame-child7"
                             alt=""
                             src="./public/frame-7386-1@2x.png"
@@ -220,7 +221,7 @@ const index = () => {
                       <div className="component-7-inner">
                         <div className="input-title-group">
                           <b className="input-title2">How to apply for admission</b>
-                          <img
+                          <Image
                             className="frame-child8"
                             alt=""
                             src="./public/frame-7386@2x.png"
@@ -232,7 +233,7 @@ const index = () => {
                       <div className="component-8-inner">
                         <div className="input-title-container">
                           <b className="input-title3">How to apply for admission</b>
-                          <img
+                          <Image
                             className="frame-child9"
                             alt=""
                             src="./public/frame-7386@2x.png"
@@ -244,7 +245,7 @@ const index = () => {
                       <div className="component-9-inner">
                         <div className="input-title-parent1">
                           <b className="input-title4">How to apply for admission</b>
-                          <img
+                          <Image
                             className="frame-child10"
                             alt=""
                             src="./public/frame-7386@2x.png"
