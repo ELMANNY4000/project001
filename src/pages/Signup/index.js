@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "../../../component/Navbar/Navbar";
+import Image from 'next/image'
 
 const Signup = () => {
   return (
@@ -94,7 +95,7 @@ const Signup = () => {
                         name="radioGroup-1"
                         />
 
-                        <img
+                        <Image
                         className="icon2"
                         loading="lazy"
                         alt=""
@@ -114,7 +115,7 @@ const Signup = () => {
                         name="radioGroup-2"
                         />
 
-                        <img className="icon3" alt="" src="./assist/icon2.svg" />
+                        <Image className="icon3" alt="" src="./assist/icon2.svg" />
                     </div>
                     <div className="placeholder-text2">
                         One special character
@@ -131,7 +132,7 @@ const Signup = () => {
                         name="radioGroup-1"
                         />
 
-                        <img className="icon4" alt="" src="./assist/icon2.svg" />
+                        <Image className="icon4" alt="" src="./assist/icon2.svg" />
                     </div>
                     <div className="placeholder-text3">
                         One upper and lowercase characters
@@ -146,7 +147,7 @@ const Signup = () => {
                         name="radioGroup-2"
                         />
 
-                        <img className="icon5" alt="" src="./assist/icon2.svg" />
+                        <Image className="icon5" alt="" src="./assist/icon2.svg" />
                     </div>
                     <div className="placeholder-text4">One number</div>
                     </div>
@@ -180,7 +181,7 @@ const Signup = () => {
             </Link>
             <div className="frame-parent31">
                 <div className="vector-container">
-                <img
+                <Image
                     className="line-icon"
                     loading="lazy"
                     alt=""
@@ -189,7 +190,7 @@ const Signup = () => {
                 </div>
                 <div className="or-continue-with">Or</div>
                 <div className="vector-frame">
-                <img
+                <Image
                     className="frame-child18"
                     loading="lazy"
                     alt=""
@@ -198,7 +199,7 @@ const Signup = () => {
                 </div>
             </div>
             <button className="button1">
-                <img
+                <Image
                 className="icon-social-google"
                 alt=""
                 src="./assist/icon--social--google.svg"

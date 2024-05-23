@@ -1,5 +1,5 @@
 import React from 'react'
-import "Logocase.css";
+import "./Logocase.css";
 import Image from 'next/image'
 
 export const index = () => {
