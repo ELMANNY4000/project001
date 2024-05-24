@@ -13,6 +13,7 @@
 @import '../pages/Signup/Signup.css';
 @import '../pages/Success/success.css';
 @import '../pages/Dashboard/Dashboard.css';
+@import '../pages/LogCase/logcaces.css';
 body {
   margin: 0;
   line-height: normal;
