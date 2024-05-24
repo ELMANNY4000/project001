@@ -1300,6 +1300,7 @@
       align-items: flex-start;
       flex-direction: row;
       gap: 15px;
+      overflow: scroll;
      
     }
     .button-left3 {
@@ -1343,9 +1344,38 @@
     }
   }
   @media screen and (max-width: 725px) {
+    .instagram-icon,
+    .twitter-icon {
+      display: block;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 7px;
+      align-self: stretch;
+    }
+    .facebook-logo {
+      display: flex;
+      height: 32px;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 4px;
+      align-self: stretch;
+    }
     .camera-icon,
     .m-d-s-t-w-buttonbutton {
-      flex-wrap: wrap;
+      display: flex;
+    }
+    .camera-icon{
+      color: var(--Brand-main-trunks, #687083);
+      text-align: center;
+      font-family: "DM Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 171.429% */
+    }
+    .description-wrapper,
+    .description2 {
+      display: none;
     }
     .m-d-s-t-w-buttonbutton,
     .mds-tw-button17,
@@ -1421,6 +1451,7 @@
     .modal3,
     .modal4 {
       flex: 1;
+      overflow: scroll;
     }
     .log-a-case {
       gap: var(--gap-base);
