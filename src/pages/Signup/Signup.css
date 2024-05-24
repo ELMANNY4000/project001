@@ -1,4 +1,52 @@
+.signup-item{
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  /* line-height: 29px; */
+}
+.cl-gray{
+  color: #687083;
+}
+.cl-purple{
+  color: #4859E3;
+}
+.cl-light_gray{
+  color: #2C323A;
+}
+.cl-xlight-gray, .bg-xlight-gray{
+  color: #EBEBEB !important;
+}
+.bg-purple{
+  background-color: #5C33CF;
+}
+.sign-head{
+  font-family: var(--font-dm-serif-display);
+  font-size: 32px;
+  line-height: 43.87px;
+}
 
+.form-check-label{
+  font-size: 12px;
+  font-family: var(--font-dm-sans);
+}
+.signup-input::placeholder{
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #687083;
+}
+.signup-text{
+  font-family: var(--font-dm-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.google{
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  line-height: 20px;
+}
 .frame-child16,
 .frame-child17 {
   position: absolute;
@@ -38,42 +86,23 @@
 .search-and-identify1 {
   margin-bottom: 0;
 }
-.report-fraud-cases-search-and1 {
+/* .report-fraud-cases-search-and1 {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   padding-left: var(--padding-lgi);
-}
+} */
 .current-level-inform-container2 {
   position: relative;
   line-height: 29px;
 }
-.terms-and-conditions {
-  position: absolute;
-  top: 52px;
-  left: 0;
-  border-radius: var(--br-5xs);
-  width: 480px;
-  height: 552px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: var(--padding-20xl) var(--padding-2xl);
-  box-sizing: border-box;
-  background-image: url(../../../public/images/signup-img.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  z-index: 2;
-}
-.metric-item-button-value {
+/* .metric-item-button-value {
   height: 958px;
   flex: 1;
   position: relative;
   min-width: 312px;
   max-width: 100%;
-}
+} */
 .span1 {
   font-weight: 500;
   font-family: var(--paragraph-text-md-regualr);
