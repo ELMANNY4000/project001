@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import { Industrial, Success } from '../../public/images' 
+import { Industrial, Success } from '../../../public/images';
+
 
 
 const index = () => {
@@ -19,7 +20,6 @@ const index = () => {
             <div className="industrial-designer-working-3d-parent">
               <Image
                 className="industrial-designer-working-3d-icon"
-                loading="lazy"
                 alt=""
                 src={Industrial}
               />
@@ -39,7 +39,6 @@ const index = () => {
             <div className="metric-item">
               <Image
                 className="efs-1-icon"
-                loading="lazy"
                 alt=""
                 src={Success}
               />

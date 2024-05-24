@@ -16,3 +16,6 @@ export { default as Gradient2} from './newletter-gradient.png'
 export { default as Gradient3} from './gradient3.png'
 export { default as Stats} from './stats.jpg'
 export { default as Guy} from './shocked-guy.jpg'
+export { default as Industrial} from './Industrial.png'
+export { default as Success} from './Success.gif'
+

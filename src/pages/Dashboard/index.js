@@ -1,5 +1,4 @@
 import React from "react";
-import "./dashboard.css"
 
 import Image from 'next/image'
 
