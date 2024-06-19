@@ -34,13 +34,17 @@ const index = () => {
                         className="layers-minimalistic-svgrepo-co-icon"
                         loading="lazy"
                         alt=""
-                        src="./public/layersmini"
+                        src="/public/layersmini"
+                        width={100}
+                        height={100}
                       />
 
                       <Image
                         className="frame-child2"
                         alt=""
-                        src="./"
+                        src="/"
+                        width={100}
+                        height={100}
                       />
                     </div>
                   </div>
@@ -61,7 +65,9 @@ const index = () => {
                         className="card-search-svgrepo-com-1-icon"
                         loading="lazy"
                         alt=""
-                        src="./public/card"
+                        src="/public/card"
+                        width={100}
+                        height={100}
                       />
 
                       <h2 className="heading5">Run a search</h2>
@@ -72,7 +78,9 @@ const index = () => {
                       <Image
                         className="frame-child5"
                         alt=""
-                        src="./pu"
+                        src="/pu"
+                        width={100}
+                        height={100}
                       />
                     </div>
                   </div>
@@ -88,7 +96,9 @@ const index = () => {
                           className="data-for-good-logo-child"
                           loading="lazy"
                           alt=""
-                          src="./public/frame-282658@2x.png"
+                          src="/public/frame-282658@2x.png"
+                          width={100}
+                        height={100}
                         />
 
                         <b className="why-financial-wellbeing">
@@ -103,7 +113,9 @@ const index = () => {
                         <Image
                           className="frame-icon"
                           alt=""
-                          src="./public/frame-282658-1@2x.png"
+                          src="/public/frame-282658-1@2x.png"
+                          width={100}
+                          height={100}
                         />
 
                         <b className="data-for-good">
@@ -118,7 +130,9 @@ const index = () => {
                         <Image
                           className="frame-child6"
                           alt=""
-                          src="./public/frame-282658-2@2x.png"
+                          src="/public/frame-282658-2@2x.png"
+                          width={100}
+                          height={100}
                         />
 
                         <b className="the-online-safety">
@@ -156,7 +170,9 @@ const index = () => {
                           <Image
                             className="why-financial-wellbeing-sub-he-child"
                             alt=""
-                            src="./public/frame-7386@2x.png"
+                            src="/public/frame-7386@2x.png"
+                            width={100}
+                            height={100}
                           />
                         </div>
                       </div>
@@ -170,7 +186,9 @@ const index = () => {
                           <Image
                             className="frame-child7"
                             alt=""
-                            src="./public/frame-7386-1@2x.png"
+                            src="/public/frame-7386-1@2x.png"
+                            width={100}
+                            height={100}
                           />
                         </div>
                       </div>
@@ -225,7 +243,9 @@ const index = () => {
                           <Image
                             className="frame-child8"
                             alt=""
-                            src="./public/frame-7386@2x.png"
+                            src="/public/frame-7386@2x.png"
+                            width={100}
+                            height={100}
                           />
                         </div>
                       </div>
@@ -237,7 +257,9 @@ const index = () => {
                           <Image
                             className="frame-child9"
                             alt=""
-                            src="./public/frame-7386@2x.png"
+                            src="/public/frame-7386@2x.png"
+                            width={100}
+                            height={100}
                           />
                         </div>
                       </div>
@@ -249,7 +271,9 @@ const index = () => {
                           <Image
                             className="frame-child10"
                             alt=""
-                            src="./public/frame-7386@2x.png"
+                            src="/public/frame-7386@2x.png"
+                            width={100}
+                            height={100}
                           />
                         </div>
                       </div>
