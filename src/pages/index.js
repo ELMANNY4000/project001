@@ -34,7 +34,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="container">
+      <section id='works' className="container">
         <div className="row pt-5">
           <div className="heading-container">
             <h1 className="text-header gray">How it works</h1>
@@ -99,7 +99,7 @@ const page = () => {
         </div>    
       </section>
       
-      <section className="container">
+      <section id='Search' className="container">
         <div className="row pt-5 ">
           <div className='py-5 px-lg-5 d-lg-flex bg-black'>
             <div className='col col-lg-6 px-3 px-lg-0 d-flex justify-content-center align-items-center'>
@@ -126,7 +126,7 @@ const page = () => {
         </div>
       </section>
       
-      <section className="container">
+      <section id='Business' className="container">
         <div className="row pt-5 position-relative">
           <div className='overflow-hidden position-relative'>
             <Image src={Gradient} alt='gradient' className='gradient position-absolute '/>
@@ -155,7 +155,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="container ">
+      <section id='waitlist' className="container ">
         <div className="row pt-5 position-relative ">
           <div className="position-relative overflow-hidden bg-black rounded-4">
             <Image src={Gradient2} alt='gradient' className='frame-parent20 h-100 position-absolute '/>
@@ -171,14 +171,14 @@ const page = () => {
                 <div className='d-md-flex '>
                   <div className="">
                     <input
-                      className="col-12 col-md-auto rounded-4 border-0 p-3 text-center"
+                      className="col-12 col-md-auto rounded-4 border-0 p-3 "
                       placeholder="Full names"
                       type="text"
                     />
                   </div>
                   <div className="py-4 py-md-0 px-md-4">
                     <input
-                      className="col-12 col-md-auto rounded-4 border-0 p-3 text-center"
+                      className="col-12 col-md-auto rounded-4 border-0 p-3 "
                       placeholder="Email address"
                       type="text"
                     />
