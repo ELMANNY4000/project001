@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect } from "react";
-import Logo from '../../public/images/logo.png'
+import Logo from '../../public/images/logo.svg'
 
 
 const Navbar = () => {
