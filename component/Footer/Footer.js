@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { FB, Instagram, X, Linkdin, Rensecure} from "../../public/images"
+import { FB, Instagram, X, Linkdin, logo2} from "../../public/images"
 
 const Footer = () => {
   return (
@@ -11,9 +11,9 @@ const Footer = () => {
                   className="content-item"
                   loading="lazy"
                   alt=""
-                  src={Rensecure}
+                  src={logo2}
                 />
-              <div className="footer-text text-white">© 2024 Resecure</div>
+              <div className="footer-text text-white">© 2024 FraudCovr</div>
             </div>
             <div className="col-12 col-md my-5 my-md-0 d-flex flex-column align-items-md-center text-white">
               <div >
