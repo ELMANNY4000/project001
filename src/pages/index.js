@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import { Hero_img, Arrow, CardSearch, CardFind, CardAnalyze, CardMake,Shield, Gradient, Stats, Gradient2, Guy, Arrow2, Gradient3 } from '../../public/images' 
 
 const page = () => {
+  const router = useRouter()
   return (
     <>
       <section className='container'>
@@ -17,7 +19,7 @@ const page = () => {
               making it harder for criminals to operate.
             </p>
             <div className='Report-btn-cont position-relative'>
-              <button className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Report a fraud</button>
+              <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSci2f-8g84ZjXV0gLa-yc80udugxgARiYE9hW91OKbrE_LodA/viewform?usp=sharing')} className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Report a fraud</button>
               <Image src={Arrow} alt='arrow' className='arrow position-absolute '/>
             </div>
           </div>
@@ -118,7 +120,7 @@ const page = () => {
                 </li>
                 <li className='shield-item fw-semibold fs-6 py-2'>Real-time actionable and informed decision</li>
               </ul>
-              <button className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Search a profile</button>
+              <button className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Coming Soon</button>
             </div>          
           </div>
         </div>
@@ -143,7 +145,7 @@ const page = () => {
                   <li className="shield-item fw-semibold fs-6 py-2 p-text">Block and flag phishing and fraudulent bank accounts </li>
                   <li className='shield-item fw-semibold fs-6 py-2 p-text'>Protect revenue loss and drive growth</li>
                 </ul>
-                <button className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Join the waitlist</button>
+                <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSci2f-8g84ZjXV0gLa-yc80udugxgARiYE9hW91OKbrE_LodA/viewform?usp=sharing')} className="position-relative Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Report a fraud</button>
               </div>          
               <div className='col-auto col-lg-6 pt-5 pt-lg-0 d-flex justify-content-center'>
                 <Image src={Stats} alt='Statistic image' className='img-fluid'/>
@@ -208,7 +210,7 @@ const page = () => {
                     database, to reduce exposure to fraud and financial crime.
                   </p>
                   <div className=''>
-                    <button className="Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Report a fraud</button>
+                    <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSci2f-8g84ZjXV0gLa-yc80udugxgARiYE9hW91OKbrE_LodA/viewform?usp=sharing')} className="Report-btn text-decoration-none py-3 border-0 rounded text-center text-white contact-btn">Report a fraud</button>
                   </div>
                 </div>
                 <div className='col-lg-6'>
